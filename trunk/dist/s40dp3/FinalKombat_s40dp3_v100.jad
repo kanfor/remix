@@ -1,0 +1,8 @@
+MIDlet-1: FinalKombat,/icono.png,MidletFinalKombat
+MIDlet-Jar-Size: 177956
+MIDlet-Jar-URL: FinalKombat_s40dp3_v100.jar
+MIDlet-Name: Final Kombat
+MIDlet-Vendor: Kitmaker
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0

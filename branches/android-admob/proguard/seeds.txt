@@ -1,0 +1,3 @@
+com.kitmaker.finalkombat.ActivityMain
+com.kitmaker.finalkombat.ActivityMain: ActivityMain()
+com.kitmaker.finalkombat.SndManager

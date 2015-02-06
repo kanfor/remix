@@ -1,0 +1,12 @@
+package javax.microedition.media.control;
+
+import javax.microedition.media.Control;
+
+public interface PitchControl extends Control {
+	
+	int setPitch(int millisemitones);
+	int getPitch();
+	int getMaxPitch();
+	int getMinPitch();
+
+}

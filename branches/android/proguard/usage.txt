@@ -1,0 +1,481 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.kitmaker.finalkombat.ActivityMain:
+    public static final int FOLDER_RESOURCES
+    public static final int FOLDER_ASSETS
+    public static final java.lang.String BITMAP_FOLDER_NAME
+    public static final int QVGA_240X320
+    public static final int HVGA_320X480
+    public static final int WVGA_480X800
+    public static final int WXGA_800X1280
+    public static final int VGA_480x640
+    public static final int ms_iSize
+    public static final boolean DRAW_ANTIALIASING
+    private static final int MENU_RESUME
+    private static final int MENU_STOP
+    static int ms_iKeyboardState
+    static final java.lang.String STORE_NAME_PLY
+    static final java.lang.String STORE_NAME_SYS
+    static final java.lang.String STORE_NAME_REC
+    static final int SAVE_PLY
+    static final int SAVE_SYS
+    static final int SAVE_REC
+    static final int LOAD_PLY
+    static final int LOAD_SYS
+    static final int LOAD_REC
+    385:385:void LoadData(int)
+    420:420:void SaveData(int)
+com.kitmaker.finalkombat.BuildConfig
+com.kitmaker.finalkombat.Define:
+    public static final int SCR_HEIGHT
+    public static final int SCR_WIDTH
+    public static final int FPS
+    public static final boolean TOUCHSCREEN
+    public static final int margenYmenuPrin
+    public static final int alturaSegundaPlataformaMetalica
+    public static final int limiteInteligentePintado
+    public static final int fuerzaSalto
+    public static final int saltoDesplazMax
+    public static final int avanceXNinja1
+    public static final int velocidadDuke
+    public static final int VELOCIDADANIMACION
+    public static final int VELOCIDADANIMACIONNINJA
+    public static final int correctorAlturaPrimeraPlataforma
+    public static final int CorrectorTexto
+    public static final int SeparacionEntreLineasIntro
+    11:11:public Define()
+com.kitmaker.finalkombat.Ktext:
+    17:17:public Ktext()
+com.kitmaker.finalkombat.MidletFinalKombat:
+    public static javax.microedition.midlet.MIDlet ms_vMIDlet
+    48:49:public void pauseApp()
+com.kitmaker.finalkombat.R
+com.kitmaker.finalkombat.R$attr
+com.kitmaker.finalkombat.R$drawable
+com.kitmaker.finalkombat.R$raw
+com.kitmaker.finalkombat.R$string
+com.kitmaker.finalkombat.SndManager:
+    static final boolean SOUND_SUPPORTED
+    static final byte FX_NOSOUND
+    static final byte FX_GOLPE
+    static final byte FX_MUERTE
+    static final byte FX_BOMBADESAC
+    static final byte FX_SELECT
+    static final byte NUM_FXS
+    static final byte MUSIC_NOSOUND
+    static final byte MUSIC_FINISHLEVEL
+    static final byte MUSIC_GAMEPLAY1
+    static final byte MUSIC_GAMEPLAY2
+    static final byte MUSIC_GAMEPLAY3
+    static final byte MUSIC_MAINMENU
+    static final byte SFX_BUTTON
+    static final byte SFX_DESARMARBOMBA
+    static final byte SFX_ENEMIGOMUERE
+    static final byte SFX_GOLPENORMAL
+    static final byte SFX_BONG
+    static final byte SFX_EXPLOSION
+    static final byte MUSIC_ENDING
+com.kitmaker.finalkombat.SuperCanvas:
+    public static byte godModeContador
+    public long currentTime
+    public long timeFPS
+    public static int ms_iFrame
+    public static long ms_lStartTime
+    public static final int MAX_FRAMETIME
+    public static int ms_iSeconds
+    javax.microedition.media.control.VolumeControl volumeControl
+    public com.kitmaker.finalkombat.Ktext ktext
+    public com.kitmaker.finalkombat.MidletFinalKombat midletFinalKombat
+    public boolean botonMuerte
+    public static final byte velocidadDuke
+    public static final byte CORRIENDO
+    public static final byte PARADO
+    public static final byte SALTANDO
+    public static final byte PATADA
+    public byte[] bomba
+    static final byte numeroMaxNinjas
+    public static final byte velocidadAnimancionNinja
+    public int desplazamientoNinja
+    public static final int KEYCODE_UP
+    public static final int KEYCODE_DOWN
+    public static final int KEYCODE_LEFT
+    public static final int KEYCODE_RIGHT
+    public static final int KEYCODE_FIRE
+    public static final int KEYCODE_NUM2
+    public static final int KEYCODE_NUM8
+    public static final int KEYCODE_NUM4
+    public static final int KEYCODE_NUM6
+    public static final int KEYCODE_NUM5
+    public static final int KEYCODE_SK_LEFT
+    public static final int KEYCODE_SK_RIGHT
+    public static final int KEYCODE_CLEAR
+    public static final int ACTION_UP
+    public static final int ACTION_DOWN
+    static final int ACTION_MOVE
+    static boolean ms_bScreenTouchReset
+    static final int TOUCH_L_SOFTK
+    static final int TOUCH_R_SOFTK
+    static final int TOUCH_ICON_SIZE_X
+    static final int TOUCH_ICON_SIZE_Y
+    3009:3028:public void botonesAnimados(javax.microedition.lcdui.Graphics,int)
+    3762:3783:static boolean GameScreenSoftkey(int,boolean)
+    3788:3791:public boolean TouchScreenReleased()
+    3827:3827:protected void keyRepeated(int)
+    3838:3838:protected void pointerDraggedK(int,int)
+    3846:3902:protected void pointerPressedK(int,int)
+    3909:4307:protected void pointerReleasedK(int,int)
+    5546:5546:public boolean trackwheelRoll(int,int,int)
+    5549:5549:public boolean trackwheelUnclick(int,int)
+    5552:5552:public boolean trackwheelClick(int,int)
+    5557:5557:public boolean keyStatus(int,int)
+    5560:5560:public boolean keyRepeat(int,int)
+    5563:5563:public boolean keyChar(char,int,int)
+    5567:5574:public boolean keyDown(int,int)
+    5578:5585:public boolean keyUp(int,int)
+javax.microedition.io.AndroidFileConnection
+javax.microedition.io.AndroidFileConnection$1
+javax.microedition.io.AndroidURLConnection
+javax.microedition.io.Connection
+javax.microedition.io.ConnectionNotFoundException
+javax.microedition.io.Connector
+javax.microedition.io.HttpConnection
+javax.microedition.io.InputConnection
+javax.microedition.io.LogOutputStream
+javax.microedition.io.OutputConnection
+javax.microedition.io.StreamConnection
+javax.microedition.io.file.FileConnection
+javax.microedition.io.file.FileSystemListener
+javax.microedition.io.file.FileSystemRegistry
+javax.microedition.lcdui.Alert
+javax.microedition.lcdui.AlertType
+javax.microedition.lcdui.Canvas:
+    public static final int DOWN
+    public static final int UP
+    public static final int LEFT
+    public static final int RIGHT
+    public static final int FIRE
+    public static final int GAME_A
+    public static final int GAME_B
+    public static final int GAME_C
+    public static final int GAME_D
+    public static final int KEY_NUM0
+    public static final int KEY_NUM1
+    public static final int KEY_NUM2
+    public static final int KEY_NUM3
+    public static final int KEY_NUM4
+    public static final int KEY_NUM5
+    public static final int KEY_NUM6
+    public static final int KEY_NUM7
+    public static final int KEY_NUM8
+    public static final int KEY_NUM9
+    public static final int KEY_STAR
+    public static final int KEY_POUND
+    public static int ms_iKeyInt_Map
+    116:116:public final void repaint(int,int,int,int)
+    119:119:public void serviceRepaints()
+    122:132:public int getGameAction(int)
+    136:136:public int getKeyCode(int)
+    146:146:protected void keyRepeated(int)
+    156:161:public void setTitle(java.lang.String)
+    177:177:public void disposeDisplayable()
+    180:180:public void initDisplayable(javax.microedition.midlet.MIDlet)
+javax.microedition.lcdui.Command
+javax.microedition.lcdui.CommandListener
+javax.microedition.lcdui.Display:
+    public static final int COLOR_BACKGROUND
+    public static final int COLOR_FOREGROUND
+    public static final int COLOR_BORDER
+    public static final int COLOR_HIGHLIGHTED_BACKGROUND
+    public static final int COLOR_HIGHLIGHTED_FOREGROUND
+    public static final int COLOR_HIGHLIGHTED_BORDER
+    public static final int LIST_ELEMENT
+    public static final int ALERT
+    public static final int CHOICE_GROUP_ELEMENT
+    private javax.microedition.lcdui.Displayable current
+    48:48:public javax.microedition.lcdui.Displayable getCurrent()
+    54:77:public int getColor(int)
+    81:81:public int getBestImageWidth(int)
+    85:85:public int getBestImageHeight(int)
+    90:90:public javax.microedition.midlet.MIDlet getMIDlet()
+    94:96:public void setCurrent(javax.microedition.lcdui.Alert,javax.microedition.lcdui.Displayable)
+    103:103:public int numColors()
+    107:107:public int numAlphaLevels()
+    111:112:public boolean vibrate(int)
+javax.microedition.lcdui.Displayable:
+    protected javax.microedition.lcdui.CommandListener commandListener
+    private javax.microedition.lcdui.Display currentDisplay
+    private int menuItemIds
+    28:49:public void addCommand(javax.microedition.lcdui.Command)
+    53:58:public void removeCommand(javax.microedition.lcdui.Command)
+    62:62:public java.util.Vector getCommands()
+    67:67:public javax.microedition.lcdui.CommandListener getCommandListener()
+    72:73:public void setCommandListener(javax.microedition.lcdui.CommandListener)
+    public abstract void initDisplayable(javax.microedition.midlet.MIDlet)
+    public abstract void disposeDisplayable()
+    public abstract android.view.View getView()
+    83:83:public javax.microedition.lcdui.Display getCurrentDisplay()
+    88:97:public void setCurrentDisplay(javax.microedition.lcdui.Display)
+    101:106:private void removeCommandsFromDisplay(javax.microedition.lcdui.Display)
+    110:132:private void removeCommandFromDisplay(javax.microedition.lcdui.Command,javax.microedition.lcdui.Display)
+    137:141:public void addCommandsToDisplay(javax.microedition.lcdui.Display)
+    145:172:private void addCommandToDisplay(javax.microedition.lcdui.Command,javax.microedition.lcdui.Display)
+    18:18:static synthetic int access$0(javax.microedition.lcdui.Displayable)
+    18:18:static synthetic void access$1(javax.microedition.lcdui.Displayable,int)
+javax.microedition.lcdui.Displayable$1
+javax.microedition.lcdui.Displayable$CallbackOnMenuItemClickListener
+javax.microedition.lcdui.Font:
+    public static final int STYLE_PLAIN
+    public static final int STYLE_BOLD
+    public static final int STYLE_ITALIC
+    public static final int STYLE_UNDERLINED
+    public static final int SIZE_SMALL
+    public static final int SIZE_MEDIUM
+    public static final int SIZE_LARGE
+    public static final int FACE_SYSTEM
+    public static final int FACE_MONOSPACE
+    public static final int FACE_PROPORTIONAL
+    public static final int FONT_STATIC_TEXT
+    public static final int FONT_INPUT_TEXT
+    36:39:public Font(int)
+    58:58:public static javax.microedition.lcdui.Font getFont(int)
+    65:65:public static javax.microedition.lcdui.Font getDefaultFont()
+    69:69:public int getStyle()
+    72:72:public int getSize()
+    75:75:public int getFace()
+    78:78:public boolean isPlain()
+    81:81:public boolean isBold()
+    84:84:public boolean isItalic()
+    87:87:public boolean isUnderlined()
+    90:90:public int getHeight()
+    93:96:public int getBaselinePosition()
+    99:103:public int charWidth(char)
+    106:109:public int stringWidth(java.lang.String)
+    112:116:public int substringWidth(java.lang.String,int,int)
+    120:122:public void setFontPaint(android.graphics.Paint)
+javax.microedition.lcdui.Graphics:
+    public static java.util.Random m_Random
+    public static int ms_iX
+    public static int ms_iY
+    static final float PI
+    public static final short ANGLE_STEPS
+    public static final short ANGLE_STEPS2
+    public static final short ANGLE_STEPS4
+    public static final short ANGLE_STEPS8
+    public static final short ANGLE_STEPS16
+    public static final int SINCOS_PRECISIONBITS
+    public static final int HCENTER
+    public static final int VCENTER
+    public static final int LEFT
+    public static final int RIGHT
+    public static final int TOP
+    public static final int BOTTOM
+    public static final int BASELINE
+    public static final int HFLIP
+    public static final int VFLIP
+    public static final int SOLID
+    public static final int DOTTED
+    public static android.content.res.AssetManager ms_vAssetManager
+    static final byte THUNDER_SECTIONS
+    119:122:public void translate(int,int)
+    125:125:public int getClipX()
+    129:129:public int getClipY()
+    133:133:public int getClipWidth()
+    137:137:public int getClipHeight()
+    141:141:public int getTranslateX()
+    145:145:public int getTranslateY()
+    149:149:public int getRedComponent()
+    153:153:public int getGreenComponent()
+    157:157:public int getBlueComponent()
+    161:161:public int getColor()
+    165:165:public int getAlpha()
+    169:169:public float getSizeX()
+    173:173:public float getSizeY()
+    177:177:public float getImageAngle()
+    181:188:public void setImageSize(float,float)
+    191:192:public void setImageAngle(float)
+    195:201:public void setColor(int)
+    204:205:public void setColor(int,int,int,int)
+    212:216:public void setGrayScale(boolean)
+    219:220:public void setAlpha(int)
+    224:224:public void setStrokeStyle(int)
+    227:228:public void setClip(int,int,int,int)
+    231:232:public void clipRect(int,int,int,int)
+    240:243:public void fillArc(int,int,int,int,int,int)
+    246:248:public void fillRoundRect(int,int,int,int)
+    251:253:public void fillRoundRect(int,int,int,int,int,int)
+    256:259:public void fillCircle(int,int,int,int)
+    262:268:public void fillTriangle(int,int,int,int,int,int)
+    271:273:public void drawRect(int,int,int,int)
+    276:279:public void drawArc(int,int,int,int,int,int)
+    282:284:public void drawRoundRect(int,int,int,int)
+    287:289:public void drawRoundRect(int,int,int,int,int,int)
+    292:295:public void drawCircle(int,int,int,int)
+    298:304:public void drawTriangle(int,int,int,int,int,int)
+    307:309:public void drawLine(int,int,int,int)
+    314:322:public void drawImage(android.graphics.Bitmap,int,int)
+    325:326:public void drawImage(javax.microedition.lcdui.Image,int,int)
+    367:398:public void drawRegion(android.graphics.Bitmap,int,int,int,int,int,int,int)
+    401:402:public void drawRegion(javax.microedition.lcdui.Image,int,int,int,int,int,int,int)
+    453:458:public void setFont(javax.microedition.lcdui.Font)
+    461:461:public javax.microedition.lcdui.Font getFont()
+    465:478:public void drawString(java.lang.String,int,int,int)
+    482:497:public void drawSubstring(java.lang.String,int,int,int,int,int)
+    501:515:public void drawChar(char,int,int,int)
+    519:534:public void drawChars(char[],int,int,int,int,int)
+    539:540:public void drawRGB(int[],int,int,int,int,int,int,boolean)
+    544:568:public void drawStar(int,int,int,int,int,int)
+    578:613:public void drawThunder(int,int,int,int,int,int)
+    616:628:public int getBlendedColor(int,int,int)
+javax.microedition.lcdui.Image:
+    51:53:public Image(javax.microedition.lcdui.Image)
+    55:57:public Image(javax.microedition.lcdui.Image,int,int,int,int,int)
+    59:61:public Image(byte[],int,int)
+    63:65:public Image(int[],int,int,boolean)
+    77:77:public float getSizeX()
+    80:80:public float getSizeY()
+    84:86:public void setSize(float,float)
+    88:89:public void setSizeX(float)
+    91:92:public void setSizeY(float)
+    103:103:public boolean isMutable()
+    107:108:public void getRGB(int[],int,int,int,int,int,int)
+    119:119:public static javax.microedition.lcdui.Image createImage(javax.microedition.lcdui.Image)
+    123:123:public static javax.microedition.lcdui.Image createImage(javax.microedition.lcdui.Image,int,int,int,int,int)
+    127:127:public static javax.microedition.lcdui.Image createImage(byte[],int,int)
+    131:131:public static javax.microedition.lcdui.Image createRGBImage(int[],int,int,boolean)
+javax.microedition.lcdui.Screen
+javax.microedition.lcdui.game.GameCanvas
+javax.microedition.lcdui.game.Layer:
+    103:105:public void move(int,int)
+    118:118:public final int getX()
+    132:132:public final int getY()
+    165:166:public void setVisible(boolean)
+    176:176:public final boolean isVisible()
+    public abstract void paint(android.graphics.Canvas)
+javax.microedition.lcdui.game.LayerManager
+javax.microedition.lcdui.game.Sprite:
+    public static final int TRANS_NONE
+    public static final int TRANS_ROT90
+    public static final int TRANS_ROT180
+    public static final int TRANS_ROT270
+    public static final int TRANS_MIRROR
+    public static final int TRANS_MIRROR_ROT90
+    public static final int TRANS_MIRROR_ROT180
+    public static final int TRANS_MIRROR_ROT270
+    private static final int INVERTED_AXES
+    private static final int X_FLIP
+    private static final int Y_FLIP
+    private static final int ALPHA_BITMASK
+    private static final int FULLY_OPAQUE_ALPHA
+    263:276:public Sprite(javax.microedition.lcdui.Image)
+    279:292:public Sprite(android.graphics.Bitmap)
+    356:380:public Sprite(android.graphics.Bitmap,int,int)
+    395:441:public Sprite(javax.microedition.lcdui.game.Sprite)
+    494:499:public void setRefPixelPosition(int,int)
+    510:510:public int getRefPixelX()
+    523:523:public int getRefPixelY()
+    574:574:public int getRawFrameCount()
+    587:587:public int getFrameSequenceLength()
+    601:602:public void nextFrame()
+    615:620:public void prevFrame()
+    724:750:public void setFrameSequence(int[])
+    814:869:public void setImage(android.graphics.Bitmap,int,int)
+    984:1107:public final boolean collidesWith(javax.microedition.lcdui.game.Sprite,boolean)
+    1139:1330:public final boolean collidesWith(javax.microedition.lcdui.game.TiledLayer,boolean)
+javax.microedition.lcdui.game.TiledLayer
+javax.microedition.media.Control
+javax.microedition.media.Controllable
+javax.microedition.media.Manager
+javax.microedition.media.MediaException
+javax.microedition.media.Player
+javax.microedition.media.PlayerListener
+javax.microedition.media.SoundPlayer
+javax.microedition.media.TonePlayer
+javax.microedition.media.control.FramePositioningControl
+javax.microedition.media.control.GUIControl
+javax.microedition.media.control.MIDIControl
+javax.microedition.media.control.MetaDataControl
+javax.microedition.media.control.PitchControl
+javax.microedition.media.control.RateControl
+javax.microedition.media.control.RecordControl
+javax.microedition.media.control.StopTimeControl
+javax.microedition.media.control.TempoControl
+javax.microedition.media.control.ToneControl
+javax.microedition.media.control.VideoControl
+javax.microedition.media.control.VolumeControl
+javax.microedition.media.protocol.ContentDescriptor
+javax.microedition.media.protocol.DataSource
+javax.microedition.media.protocol.SourceStream
+javax.microedition.midlet.MIDlet:
+    public static final java.lang.String PROTOCOL_HTTP
+    public static final java.lang.String PROTOCOL_HTTPS
+    public static final java.lang.String PROTOCOL_SMS
+    public static final java.lang.String PROTOCOL_PHONE
+    public static final java.lang.String PROTOCOL_EMAIL
+    private android.view.Menu menu
+    30:30:public java.util.Properties getApplicationProperties()
+    34:35:public void setApplicationProperties(java.util.Properties)
+    38:38:public android.view.Menu getMenu()
+    42:49:public void setMenu(android.view.Menu)
+    52:52:public android.os.Handler getHandler()
+    protected abstract void destroyApp(boolean)
+    protected abstract void pauseApp()
+    protected abstract void startApp()
+    73:74:public final void doDestroyApp(boolean)
+    77:78:public final void doStartApp()
+    81:82:public final void doPauseApp()
+    85:94:public boolean platformRequest(java.lang.String)
+    98:98:public java.lang.String getAppProperty(java.lang.String)
+javax.microedition.midlet.MIDletStateChangeException
+javax.microedition.rms.InvalidRecordIDException:
+    private static final long serialVersionUID
+javax.microedition.rms.RecordComparator
+javax.microedition.rms.RecordEnumeration
+javax.microedition.rms.RecordFilter
+javax.microedition.rms.RecordListener:
+    public abstract void recordDeleted(javax.microedition.rms.RecordStore,int)
+javax.microedition.rms.RecordStore:
+    public static final int AUTHMODE_PRIVATE
+    public static final int AUTHMODE_ANY
+    private long lastModified
+    146:146:public static javax.microedition.rms.RecordStore openRecordStore(java.lang.String,boolean,int,boolean)
+    152:152:public static javax.microedition.rms.RecordStore openRecordStore(java.lang.String,java.lang.String,java.lang.String)
+    157:157:public void setMode(int,boolean)
+    174:179:public static java.lang.String[] listRecordStores()
+    183:183:public java.lang.String getName()
+    200:203:public int getSizeAvailable()
+    207:207:public long getLastModified()
+    211:216:public void addRecordListener(javax.microedition.rms.RecordListener)
+    219:224:public void removeRecordListener(javax.microedition.rms.RecordListener)
+    228:231:public int getNextRecordID()
+    292:302:public void deleteRecord(int)
+    316:320:public int getRecord(int,byte[],int)
+    361:363:public javax.microedition.rms.RecordEnumeration enumerateRecords(javax.microedition.rms.RecordFilter,javax.microedition.rms.RecordComparator,boolean)
+    397:404:private void fireRecordDeletedEvent(int)
+javax.microedition.rms.RecordStoreException:
+    private static final long serialVersionUID
+javax.microedition.rms.RecordStoreFullException:
+    private static final long serialVersionUID
+    34:35:public RecordStoreFullException(java.lang.String)
+    38:39:public RecordStoreFullException()
+javax.microedition.rms.RecordStoreNotFoundException:
+    private static final long serialVersionUID
+javax.microedition.rms.RecordStoreNotOpenException:
+    private static final long serialVersionUID
+javax.microedition.rms.RecordStoreSqlLite:
+    private static final java.lang.String TABLENAME_RECORDSTORE
+    private static final java.lang.String COLUMNNAME_RECORDSTORE_RECORDSTORE_PK
+    private static final java.lang.String COLUMNNAME_RECORDSTORE_NAME
+    private static final java.lang.String COLUMNNAME_RECORDSTORE_VERSION
+    private static final java.lang.String COLUMNNAME_RECORDSTORE_NEXTID
+    private static final java.lang.String COLUMNNAME_RECORDSTORE_NUMBER_OF_RECORDS
+    private static final java.lang.String COLUMNNAME_RECORDSTORE_SIZE
+    private static final java.lang.String TABLENAME_RECORD
+    private static final java.lang.String COLUMNNAME_RECORD_RECORD_PK
+    private static final java.lang.String COLUMNNAME_RECORD_RECORDSTORE_FK
+    private static final java.lang.String COLUMNNAME_RECORD_RECORDNUMBER
+    private static final java.lang.String COLUMNNAME_RECORD_DATA
+    227:228:public synchronized void destroy()
+    231:245:public synchronized java.lang.String[] listRecordStores()
+    390:406:public synchronized void removeRecord(long,int)
+    409:429:public synchronized int[] getRecordIdsForRecordStore(long)
+javax.microedition.rms.RecordStoreSqlLiteEnumeration
